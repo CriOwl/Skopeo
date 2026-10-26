@@ -1,5 +1,5 @@
 # SpywareAgent — spyware/monitor local para Windows 10-11
-
+Software con las capacidades de recolectar informacion del teclado, capturas de pantalla, notas rapidas, portapapeles y almacenarlo de forma local
 ## Build
 
 ```
@@ -18,7 +18,7 @@ publish\SpywareAgent.exe --status
 publish\SpywareAgent.exe --uninstall --remove-data
 ```
 
-## Dónde queda todo
+## Rutas de datos
 
 | Dato | Ruta |
 |---|---|
