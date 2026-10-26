@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Spyware.UnitTests</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Spyware.Core\Spyware.Core.csproj" />
+    <ProjectReference Include="..\..\src\Spyware.Storage\Spyware.Storage.csproj" />
+    <ProjectReference Include="..\..\src\Spyware.Collectors.Browsers\Spyware.Collectors.Browsers.csproj" />
+    <ProjectReference Include="..\..\src\Spyware.Collectors.Keyboard\Spyware.Collectors.Keyboard.csproj" />
+    <ProjectReference Include="..\..\src\Spyware.Collectors.Notes\Spyware.Collectors.Notes.csproj" />
+    <ProjectReference Include="..\..\src\Spyware.Transport\Spyware.Transport.csproj" />
+  </ItemGroup>
+
+</Project>

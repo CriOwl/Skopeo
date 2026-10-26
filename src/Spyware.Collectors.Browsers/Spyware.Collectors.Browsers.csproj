@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Spyware.Collectors.Browsers</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spyware.Core\Spyware.Core.csproj" />
+    <ProjectReference Include="..\Spyware.Storage\Spyware.Storage.csproj" />
+  </ItemGroup>
+
+</Project>

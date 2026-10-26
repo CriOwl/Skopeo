@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Spyware.Collectors.Notes</RootNamespace>
+    <!-- Sin UseWindowsForms: solo hace falta SQLite y lectura de archivos. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spyware.Core\Spyware.Core.csproj" />
+    <ProjectReference Include="..\Spyware.Storage\Spyware.Storage.csproj" />
+  </ItemGroup>
+
+</Project>

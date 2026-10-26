@@ -1,0 +1,87 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Core", "src\Spyware.Core\Spyware.Core.csproj", "{1A000000-0000-0000-0000-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Persistence", "src\Spyware.Persistence\Spyware.Persistence.csproj", "{1A000000-0000-0000-0000-000000000002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Storage", "src\Spyware.Storage\Spyware.Storage.csproj", "{1A000000-0000-0000-0000-000000000003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Collectors.Screenshot", "src\Spyware.Collectors.Screenshot\Spyware.Collectors.Screenshot.csproj", "{1A000000-0000-0000-0000-000000000004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Collectors.Clipboard", "src\Spyware.Collectors.Clipboard\Spyware.Collectors.Clipboard.csproj", "{1A000000-0000-0000-0000-000000000005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Collectors.Browsers", "src\Spyware.Collectors.Browsers\Spyware.Collectors.Browsers.csproj", "{1A000000-0000-0000-0000-000000000006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Collectors.Keyboard", "src\Spyware.Collectors.Keyboard\Spyware.Collectors.Keyboard.csproj", "{1A000000-0000-0000-0000-00000000000B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Collectors.Notes", "src\Spyware.Collectors.Notes\Spyware.Collectors.Notes.csproj", "{1A000000-0000-0000-0000-00000000000C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Transport", "src\Spyware.Transport\Spyware.Transport.csproj", "{1A000000-0000-0000-0000-000000000007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Maintenance", "src\Spyware.Maintenance\Spyware.Maintenance.csproj", "{1A000000-0000-0000-0000-000000000008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.Agent", "src\Spyware.Agent\Spyware.Agent.csproj", "{1A000000-0000-0000-0000-000000000009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyware.UnitTests", "tests\Spyware.UnitTests\Spyware.UnitTests.csproj", "{1A000000-0000-0000-0000-00000000000A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A000000-0000-0000-0000-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-00000000000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-00000000000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-00000000000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-00000000000B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-00000000000C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-00000000000C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-00000000000C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-00000000000C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-000000000009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-000000000009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A000000-0000-0000-0000-00000000000A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A000000-0000-0000-0000-00000000000A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A000000-0000-0000-0000-00000000000A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A000000-0000-0000-0000-00000000000A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

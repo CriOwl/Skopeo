@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Spyware.Collectors.Keyboard</RootNamespace>
+    <!-- Sin UseWindowsForms: el hook se bombea con GetMessage, no con WinForms. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spyware.Core\Spyware.Core.csproj" />
+    <ProjectReference Include="..\Spyware.Storage\Spyware.Storage.csproj" />
+  </ItemGroup>
+
+</Project>

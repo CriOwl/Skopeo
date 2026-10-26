@@ -1,0 +1,22 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <Company>SpywareLab</Company>
+    <Product>SpywareAgent</Product>
+    <Copyright>Copyright © SpywareLab</Copyright>
+    <Version>1.0.0</Version>
+    <NeutralLanguage>es</NeutralLanguage>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <SatelliteResourceLanguages>es</SatelliteResourceLanguages>
+    <AnalysisLevel>latest-minimum</AnalysisLevel>
+    <!-- Permite ejecutar los binarios net8.0 sobre un runtime .NET más nuevo
+         (útil en equipos de laboratorio sin el runtime 8.0 instalado). -->
+    <RollForward>LatestMajor</RollForward>
+  </PropertyGroup>
+
+</Project>
